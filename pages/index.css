@@ -1,2 +1,118 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+
+
+.page {
+    width: 100%;
+    margin: auto;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+  }
+
+/* HEADER SECTION  */
+
+.header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+/* NAV SECTION  */
+
+.nav__logo {
+  width: 254px;
+  height: 70px;
+  margin: 34px 0 0 0;
+}
+
+/* HEADER SECTION 2  */
+
+.header__title {
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  text-align: center;
+max-width: 720px;
+  margin: 60px 0 32px 0;
+}
+
+.header__subtitle {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  max-width: 720px; 
+  font-weight: 300;  /*no figma ta falando 400 mas achei o 300 mais parecido */
+  margin: 0;
+}
+
+.header__image {
+  width: 100%;
+  margin: 64px 0 92px 0;
+}
+
+
+/* CONHECA SECTION */
+
+.conheca {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.conheca__title {
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
+  margin: 0;
+  max-width: 830px;
+}
+
+.conheca__quote {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 34px;
+  text-align: left;
+  max-width: 738px;
+  margin: 40px 0 10px 0;
+}
+
+.conheca__quote-author {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 34px;
+  text-align: right;
+  max-width: 738px;
+  margin: 0;
+}
+
+.conheca__text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26.08px;
+  text-align: left;
+  max-width: 738px;
+  margin: 32px 0 92px 0;
+}
+
+/* FOOTER SECTION  */ 
+
+
+.footer__content {
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  padding: 0 0 24px 0;
+}
