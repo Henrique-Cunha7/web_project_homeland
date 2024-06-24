@@ -38,7 +38,7 @@
   line-height: 100px;
   text-align: center;
   max-width: 720px;
-  margin: 60px 0 32px 0;
+  margin: 90px 0 32px 0;
 }
 
 .header__subtitle {
@@ -98,7 +98,7 @@
 .conheca__text {
   font-size: 16px;
   font-weight: 300;
-  line-height: 26.08px;
+  line-height: 26px;
   text-align: left;
   max-width: 738px;
   margin: 32px 0 92px 0;
@@ -118,47 +118,100 @@
 
 
 /* MEDIA QUERIES */
+
+/* 768 */
 @media (max-width: 768px) {
   
   /* HEADER SECTION  */
 
-  .header {
-    width: 100%;
+.header {
+  width: 100%;
   }
 
-  .header__title {
-    font-size: 75px;
-    line-height: 79px;
+.header__title {
+  font-size: 75px;
+  line-height: 79px;
+  margin: 90px 0 25px 0;
   }
 
+.header__image {
+  width: 100%;
+  margin: 30px 0 90px 0;
+  }
   /* CONHECA SECTION */
 
-  .conheca {
+.conheca {
   width: 90%;
 }
 
-
-  .conheca__title {
+.conheca__title {
   font-size: 45px;
   line-height: 49px;
 }
 
-.conheca__quote-author {
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 34px;
-  text-align: right;
-  max-width: 738px;
-  margin: 0;
-}
+.conheca__quote {
+  margin: 50px 0 10px 0;
+  }
 
 .conheca__text {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 26.08px;
-  text-align: left;
-  max-width: 738px;
-  margin: 32px 0 92px 0;
+  margin: 32px 0 88px 0;
+}
 }
 
+/* 320 */
+
+@media (max-width: 320px) {
+  
+  /* HEADER SECTION  */
+
+.header {
+  width: 100%;
+  }
+
+.header__title {
+  font-size: 40px;
+  line-height: 44px;
+  margin: 50px 0 16px 0;
+  }
+
+  
+.header__subtitle {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header__image {
+  width: 100%;
+  margin: 40px 0 64px 0;
+  }
+
+  /* NAV SECTION  */
+
+.nav__logo {
+  width: 188px;
+  height: 52px;
+  margin: 20px 0 0 0;
+  }
+
+
+  /* CONHECA SECTION */
+
+.conheca {
+  width: 90%;
+}
+
+
+.conheca__title {
+  font-size: 32px;
+  line-height: 35px;
+}
+
+.conheca__quote {
+ margin: 40px 0 10px 0;
+ line-height: 30px;
+  }
+
+.conheca__text {
+  margin: 32px 0 64px 0;
+}
 }
