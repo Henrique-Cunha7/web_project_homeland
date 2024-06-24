@@ -1,0 +1,83 @@
+.conheca {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.conheca__title {
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
+  margin: 0;
+  max-width: 830px;
+}
+
+.conheca__quote {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 34px;
+  text-align: left;
+  max-width: 738px;
+  margin: 40px 0 10px 0;
+}
+
+.conheca__quote-author {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 34px;
+  text-align: right;
+  max-width: 738px;
+  margin: 0;
+}
+
+.conheca__text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  max-width: 738px;
+  margin: 32px 0 92px 0;
+}
+
+@media (max-width: 768px) {
+  .conheca {
+    width: 90%;
+  }
+
+  .conheca__title {
+    font-size: 45px;
+    line-height: 49px;
+  }
+
+  .conheca__quote {
+    margin: 50px 0 10px 0;
+  }
+
+  .conheca__text {
+    margin: 32px 0 88px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .conheca {
+    width: 90%;
+  }
+
+  .conheca__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .conheca__quote {
+    margin: 40px 0 10px 0;
+    line-height: 30px;
+  }
+
+  .conheca__text {
+    margin: 32px 0 64px 0;
+  }
+}
