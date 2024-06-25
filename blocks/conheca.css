@@ -62,6 +62,40 @@
   }
 }
 
+@media (max-width: 600px) {
+  .conheca__title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .conheca__quote {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .conheca__quote-author {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .conheca__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .conheca__title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .conheca__quote-author {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
 @media (max-width: 320px) {
   .conheca {
     width: 90%;
@@ -74,10 +108,10 @@
 
   .conheca__quote {
     margin: 40px 0 10px 0;
-    line-height: 30px;
   }
 
   .conheca__text {
     margin: 32px 0 64px 0;
+    font-size: 14px;
   }
 }
